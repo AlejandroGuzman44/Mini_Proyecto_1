@@ -112,51 +112,51 @@ const tf_mensaje = document.querySelector('#mensaje');
 const btn = document.querySelector('.btn');
 const msg = document.querySelector('.msg');
 const users = document.querySelector('#users');
-
-
-
-
+    
+    
+    
+    
 form.addEventListener('submit' , onSubmit);
-
-
+    
+    
 function onSubmit(e) 
 {
-
+    
     e.preventDefault();
-
+    
     if( tf_email.value.split('@').length === 2 ){
-
+    
         let li = document.createElement('li');
         li.classList.add('show');
         let text = document.createTextNode(`Nombre : ${tf_name.value} - Email : ${tf_email.value} - Mensaje : ${tf_mensaje.value}`);
         li.appendChild(text);
         users.appendChild(li);
         setTimeout(() => li.remove() , 5000)
-
-        msg.classList.add('bienvenido');
-
-        msg.innerText = "Datos procesados correctamente";
-
-        setTimeout(() => {msg.classList.remove('bienvenido'); msg.innerText = ''; } , 2000);
-       
-        
-
-    }else{
-
-        msg.classList.add('error');
-
-        msg.innerText = "Correo invalido";
-
-        setTimeout(() => {msg.classList.remove('error'); msg.innerText = ''; } , 2000);
-
-        
-
-    }
-
     
-
+        msg.classList.add('bienvenido');
+    
+        msg.innerText = "Datos procesados correctamente";
+    
+        setTimeout(() => {msg.classList.remove('bienvenido'); msg.innerText = ''; } , 2000);
+           
+        console.log('Nombre :' , tf_name.value , 'Correo :' , tf_email.value , 'Mensaje :' , tf_mensaje.value);
+    
+    }else{
+    
+        msg.classList.add('error');
+    
+        msg.innerText = "Correo invalido";
+    
+        setTimeout(() => {msg.classList.remove('error'); msg.innerText = ''; } , 2000);
+    
+            
+    
+    }
+    
+        
+    
     tf_name.value = '';
     tf_email.value = '';
     tf_mensaje.value = '';
-    
+        
 }
