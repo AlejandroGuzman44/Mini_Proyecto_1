@@ -254,3 +254,107 @@ a.principal.nav_active {
 
 
 /*FIN ABOUT ME PAGE*/
+
+
+
+/*SKILLS PAGE*/
+
+
+.skills{
+    padding: 5rem 0 2.5rem 0;
+}
+
+
+.skills > .text{
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+
+.skills .row{
+    margin: 1rem 0;
+}
+
+.skills .item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+
+
+.skills .item-text{
+
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 1.3rem;
+    position: relative;
+    margin-left: 0%;
+
+}
+
+.skills .item-text span:last-child{
+    position: absolute;
+    margin-left: 85%;
+}
+
+
+.progress{
+
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 18px;
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+    overflow: hidden;
+
+}
+
+
+.progress-bar{
+
+    background: steelblue;
+    height: 100%;
+    width: 0%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+.title{
+    position: relative;
+    text-shadow: 10px 10px 10px steelblue;
+}
+
+.title > h2{
+
+    font-size: 5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: black;
+
+}
+
+.container{
+
+    width: 90vw;
+    margin: 0 auto;
+
+}
+
+.title div{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*FIN SKILLS PAGE*/

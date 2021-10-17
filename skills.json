@@ -1,0 +1,36 @@
+[
+    {
+        "skill" : "Phothoshop",
+        "progress": 90
+    },
+
+    {
+        "skill" : "Aftereffects",
+        "progress": 80 
+    },
+
+    {
+        "skill":"HTML5 y CSS3",
+        "progress": 90
+    },
+
+    {
+        "skill":"JavaScript",
+        "progress":80
+    },
+
+    {
+        "skill":"Python",
+        "progress": 70
+    },
+
+    {
+        "skill":"Java",
+        "progress": 60
+    },
+
+    {
+        "skill":"C++",
+        "progress": 90
+    }
+]
