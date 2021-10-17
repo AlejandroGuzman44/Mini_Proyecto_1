@@ -493,3 +493,140 @@ div.reset {
 }
 
 /*FIN EXPERIENCE PAGE*/
+
+
+
+/*CONTACT PAGE*/
+
+
+#contact_form_icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#section_contact >i{
+    list-style: none;
+    text-decoration: none;
+}
+
+#section_contact >i:visited{
+    color: black;
+}
+
+form h1{
+
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+section.containers{
+
+    margin: auto;
+    width: 500px;
+    padding: 10rem 1rem;
+
+}
+
+
+#my_form{
+
+    padding: 2rem;
+    background: #f4f4f4;
+    border: 1.5px solid black;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+
+#my_form label{
+
+    display: block;
+}
+
+
+
+#my_form input[type='text']{
+
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+#my_form input.btn{
+
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0px;
+    background: steelblue;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 0;
+
+}
+
+
+#my_form input.btn:hover{
+
+    background: #444;
+    cursor: pointer;
+
+}
+
+.bienvenido{
+
+    background: rgb(159, 228, 159);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.error{
+
+    background: orange;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+section ul{
+    list-style: none;
+}
+
+
+section ul li.show{
+
+    padding: 5px;
+    background: #cacacaa2;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+
+
+#iconos{
+
+    padding-left: 75px;
+
+}
+
+
+
+
+/*FIN CONTACT PAGE*/
