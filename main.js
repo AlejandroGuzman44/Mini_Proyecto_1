@@ -27,3 +27,17 @@ document.querySelector('#nav_contact').addEventListener('click' , () =>{
     document.querySelector('.nav_active').classList.remove('nav_active');
     document.querySelector('#nav_contact').classList.add('nav_active');
 })
+
+
+
+var counter = 1;
+
+setInterval(function()
+{
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if(counter > 4)
+  {
+    counter = 1;
+  }
+}, 3000);
