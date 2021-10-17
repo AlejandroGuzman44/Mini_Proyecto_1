@@ -30,14 +30,26 @@ document.querySelector('#nav_contact').addEventListener('click' , () =>{
 
 
 
-var counter = 1;
+var counter = 0;
 
-setInterval(function()
-{
-  document.getElementById('radio' + counter).checked = true;
-  counter++;
-  if(counter > 4)
-  {
-    counter = 1;
-  }
-}, 3000);
+const manual_nav = document.querySelectorAll('.manual-btn');
+
+manual_nav.forEach( (btn)=>{
+  
+  btn.addEventListener( 'click', ()=>{
+
+    counter = parseInt( btn.htmlFor.split('radio')[1] )-1;
+    document.querySelector('.first' ).style.marginLeft = `${-1*counter*20}%`;
+    document.getElementById('radio' + (counter+1) ).checked = true;
+
+  } );
+
+} )
+
+setInterval(function(){
+  
+  document.querySelector('.first' ).style.marginLeft = `${-1*counter*20}%`;
+  document.getElementById('radio' + (counter+1) ).checked = true;
+  counter = (counter+1)%4 ;
+
+}, 5000);

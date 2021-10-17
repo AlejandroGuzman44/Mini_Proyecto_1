@@ -172,21 +172,7 @@ a.principal.nav_active {
     margin-right: 40px;
 }
   
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background: steelblue;
-}
-  
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background: steelblue;
-}
-  
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background: steelblue;
-}
-  
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background: steelblue;
-}
+
 
 
 /*FIN CAROUSEL PAGE*/
