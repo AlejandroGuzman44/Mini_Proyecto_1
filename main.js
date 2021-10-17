@@ -29,19 +29,31 @@ document.querySelector('#nav_contact').addEventListener('click' , () =>{
 })
 
 
+/*CODIGO PARA EL FUNCIONAMIENTO DEL CAROUSEL*/ 
+var counter = 0;
 
-var counter = 1;
+const manual_nav = document.querySelectorAll('.manual-btn');
 
-setInterval(function()
-{
-  document.getElementById('radio' + counter).checked = true;
-  counter++;
-  if(counter > 4)
-  {
-    counter = 1;
-  }
-}, 3000);
+manual_nav.forEach( (btn)=>{
+  
+  btn.addEventListener( 'click', ()=>{
 
+    counter = parseInt( btn.htmlFor.split('radio')[1] )-1;
+    document.querySelector('.first' ).style.marginLeft = `${-1*counter*20}%`;
+    document.getElementById('radio' + (counter+1) ).checked = true;
+
+  } );
+
+} )
+
+setInterval(function(){
+  
+  document.querySelector('.first' ).style.marginLeft = `${-1*counter*20}%`;
+  document.getElementById('radio' + (counter+1) ).checked = true;
+  counter = (counter+1)%4 ;
+
+}, 5000);
+/*FIN DEL CODIGO PARA EL FUNCIONAMIENTO DEL CAROUSEL*/
 
 
 
