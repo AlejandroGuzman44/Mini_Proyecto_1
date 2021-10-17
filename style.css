@@ -14,3 +14,60 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+
+
+/* NAVBAR PAGE */
+
+nav{
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    background-color: steelblue;
+    height: 80px;
+    width: 100%;
+}
+
+nav label.logo{
+
+    padding : 0 100px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    line-height: 80px;
+
+}
+
+nav ul{
+
+    float: right;
+    padding-right: 40px;
+
+}
+
+ul li.princp{
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 8px;
+}
+
+li a.principal{
+
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 7px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+}
+
+a.principal.nav_active {
+
+    border: 1px solid white;
+    transition: 0.25s;
+
+}
+
+/*FIN NAVBAR PAGE*/
