@@ -139,7 +139,7 @@ function onSubmit(e)
 
         setTimeout(() => {msg.classList.remove('bienvenido'); msg.innerText = ''; } , 2000);
        
-        
+        console.log('Nombre :' , tf_name.value , 'Correo :' , tf_email.value , 'Mensaje :' , tf_mensaje.value);
 
     }else{
 
