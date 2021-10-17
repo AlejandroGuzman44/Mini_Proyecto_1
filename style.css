@@ -358,3 +358,138 @@ a.principal.nav_active {
 
 
 /*FIN SKILLS PAGE*/
+
+
+
+
+
+
+/*EXPERIENCE PAGE*/
+
+
+#section_experience{
+    padding-top: 2.5rem;
+}
+
+ul.completo{
+
+    margin-top: 50px;
+}
+
+ul.completo li.comp{
+
+    padding-bottom: 30px;
+}
+
+li.comp p{
+    font-size: 20px;
+}
+
+li.comp a.experiencia{
+
+    color: black;
+    border: 1px solid transparent;
+    font-size: 20px;
+}
+
+li.comp a.experiencia:hover{
+
+    border: 1px solid white;
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+
+div.proyecto_1 {
+    
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(58, 101, 136);
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    border: 3px solid black;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.50);
+}
+  
+div.proyecto_1 img.img_1 {
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+
+div.proyecto_2 {
+    
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(58, 101, 136);
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    border: 3px solid black;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.50);
+}
+  
+div.proyecto_2 img.img_2 {
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+
+div.proyecto_3 {
+    
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(58, 101, 136);
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    border: 3px solid black;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.50);
+}
+  
+div.proyecto_3 img.img_3 {
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+
+div.proyecto_4 {
+    
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(58, 101, 136);
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    border: 3px solid black;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.50);
+}
+  
+div.proyecto_4 img.img_4 {
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+
+div.reset {
+    clear: both;
+}
+
+/*FIN EXPERIENCE PAGE*/
