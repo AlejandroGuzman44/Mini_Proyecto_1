@@ -56,7 +56,7 @@ setInterval(function(){
 /*FIN DEL CODIGO PARA EL FUNCIONAMIENTO DEL CAROUSEL*/
 
 
-
+/*CODIGO PARA LA CREACION DE LAS SKILLS*/
 function writeSkill(skill_array) 
 {
 
@@ -114,9 +114,10 @@ fetch('skills.json')
     .then(response => response.json())
     .then(info => writeSkill(info))
 
+/*FIN DEL CODIGO PARA LA CREACION DE LAS SKILLS*/
 
 
-
+/*CODIGO PARA EL FUNCIONAMIENTO DEL FORMULARIO*/
 const form = document.querySelector('#my_form');
 const tf_name = document.querySelector('#name');
 const tf_email = document.querySelector('#email');
@@ -172,3 +173,4 @@ function onSubmit(e)
     tf_mensaje.value = '';
     
 }
+/*FIN DEL CODIGO PARA EL FUNCIONAMIENTO DEL FORMULARIO*/
